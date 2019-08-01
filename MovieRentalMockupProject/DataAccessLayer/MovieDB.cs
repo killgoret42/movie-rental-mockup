@@ -11,9 +11,21 @@ namespace MeramecNetFlixProject.DataAccessLayer
 {
     public static class MovieDB
     {
+/*
+if the program is compiled as debug, it will get put under /bin/debug , and the database file that gets put next to it is overridden on every compile, so any changes made won't be permanent.
+this could be useful for testing purposes, but it might not. Right now I want to test permanent changes, so I'm using this connection string here for debug. The release version will need to
+use a different connection string, since the database file will be in a different location. If i want to switch between permanent and non permanent changes, I can test with release instead of
+debug.
+*/
+#if DEBUG
         private const string connectionString =
             "Provider = Microsoft.ACE.OLEDB.12.0;" +
             "Data Source =" + @"..\..\MovieDatabase.accdb";
+#else
+        private const string connectionString = 
+            "Provider = Microsoft.ACE.OLEDB.12.0;" +
+            "Data Source =" + @"MovieDatabase.accdb";
+#endif
 
         /// <summary>
         /// Initializes connection using the static variable connectionString
