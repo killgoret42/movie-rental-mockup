@@ -1,4 +1,4 @@
-This is a project that I adapted from a college project so that I could use it as an example of my coding ability. Orginally the project used a SQLServer database, but I adapted it so it could use an Access database on my home machine.
+This is a project that I adapted from a college project so that I could use it as an example of my coding ability. Originally the project used a SQLServer database, but I adapted it so it could use an Access database on my home machine.
 
 This project was made to imitate a movie rental system. Create an account and sign in, and you will be able to browse through the
 movie database, and select movies for rental. If you sign in with an admin account, you will be able to perform CRUD operations on
@@ -12,4 +12,4 @@ If you want to test out the admin features, you can use the following login info
 Username: admin
 Password: password
 
-NOTE: you will need AccessDatabaseEngine installed for the program to function properly. You can download it from microsoft with this link https://www.microsoft.com/en-us/download/details.aspx?id=13255
+NOTE: you will need AccessDatabaseEngine installed for the program to function properly. You can download it from Microsoft with this link https://www.microsoft.com/en-us/download/details.aspx?id=13255
