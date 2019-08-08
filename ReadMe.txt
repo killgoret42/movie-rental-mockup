@@ -13,3 +13,4 @@ Username: admin
 Password: password
 
 NOTE: you will need AccessDatabaseEngine installed for the program to function properly. You can download it from Microsoft with this link https://www.microsoft.com/en-us/download/details.aspx?id=13255
+You will need the 32 bit version, listed as AccessDatabaseEngine.exe, NOT  the 64 bit one listed as AccessDatabaseEngine_X64.exe
